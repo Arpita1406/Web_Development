@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <header>
+        <h1>Temperature Converter</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Celsius to Fahrenheit</h2>
+            <div class="converter">
+                <input type="number" id="celsiusInput" placeholder="Enter Celsius">
+                <button onclick="convertToCelsius()">Convert</button>
+                <p id="fahrenheitResult"></p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Fahrenheit to Celsius</h2>
+            <div class="converter">
+                <input type="number" id="fahrenheitInput" placeholder="Enter Fahrenheit">
+                <button onclick="convertToFahrenheit()">Convert</button>
+                <p id="celsiusResult"></p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Temperature Converter</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
